@@ -1,0 +1,70 @@
+html {
+    font-family: Helvetica, Arial, sans-serif;
+    
+}
+h1 {
+    float: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.wrapper {
+	margin: 0 auto;
+	padding: 10px 10px 10px 10px;
+}
+
+form {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+
+table {
+    color: #333;
+    width: 100%; 
+    border-collapse: collapse; 
+    border-spacing: 0;
+}
+
+tr {
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid black;
+    height: 30px;
+    padding: 15px;
+}
+
+th {
+    font-size: 20px;
+    background: #CCCCCC;
+    font-weight: bold;
+}
+
+td {
+    background: #FAFAFA;
+    text-align: center;
+}
+
+tr:nth-child(even) td {
+    background: #F1F1F1; 
+}   
+ 
+tr:nth-child(odd) td {
+    background: #FEFEFE; 
+} 
+
+footer {
+    float: right;
+    padding: 15px;
+}
